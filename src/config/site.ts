@@ -1,174 +1,179 @@
 export const siteConfig = {
-  // ====== CUSTOMIZE THESE FOR EACH TOOL ======
-  name: "{{TOOL_NAME}}",
-  title: "{{TOOL_TITLE}}",
-  description: "{{TOOL_DESCRIPTION}}",
-  url: "https://{{TOOL_SLUG}}.jagodana.com",
+  name: "Claymorphism Generator",
+  title: "Claymorphism Generator — Free CSS Clay Effect Tool",
+  description:
+    "Generate beautiful claymorphism CSS effects instantly. Customize colors, shadows, and border radius to create soft 3D clay-like UI elements. Copy the CSS with one click.",
+  url: "https://claymorphism-generator.tools.jagodana.com",
   ogImage: "/opengraph-image",
 
-  // Header
-  headerIcon: "Wrench", // lucide-react icon name (e.g., Image, Map, Code, Palette, Globe, FileSearch)
-  // Brand gradient colors for Tailwind are in globals.css (--brand / --brand-accent)
-  // Use text-brand, from-brand, to-brand-accent etc. in components
-  brandAccentColor: "#06b6d4", // hex accent for OG image gradient (must match --brand-accent in globals.css)
+  headerIcon: "Layers",
+  brandAccentColor: "#ec4899",
 
-  // SEO
   keywords: [
-    "{{KEYWORD_1}}",
-    "{{KEYWORD_2}}",
-    "{{KEYWORD_3}}",
+    "claymorphism generator",
+    "clay morphism CSS",
+    "CSS clay effect",
+    "clay UI design",
+    "claymorphism tool",
+    "CSS box shadow generator",
+    "clay CSS generator",
+    "3D clay button CSS",
+    "neumorphism vs claymorphism",
+    "soft UI CSS",
   ],
-  applicationCategory: "DeveloperApplication", // or "DesignApplication", "UtilitiesApplication"
+  applicationCategory: "DesignApplication",
 
-  // Theme
-  themeColor: "#10b981", // used in manifest and meta tags
+  themeColor: "#a855f7",
 
-  // Branding
   creator: "Jagodana",
   creatorUrl: "https://jagodana.com",
   twitterHandle: "@jagodana",
 
-  // Social Profiles (for Organization schema sameAs)
   socialProfiles: [
     "https://twitter.com/jagodana",
-    // Add more: LinkedIn, YouTube, etc.
   ],
 
-  // Links
   links: {
-    github: "https://github.com/Jagodana-Studio-Private-Limited/{{TOOL_SLUG}}",
+    github:
+      "https://github.com/Jagodana-Studio-Private-Limited/claymorphism-generator",
     website: "https://jagodana.com",
   },
 
-  // Footer
   footer: {
-    about: "{{FOOTER_ABOUT_DESCRIPTION}}",
+    about:
+      "Claymorphism Generator helps designers and developers create trendy clay-style UI elements with multi-layered box shadows. Free, no login required.",
     featuresTitle: "Features",
     features: [
-      "{{FEATURE_1}}",
-      "{{FEATURE_2}}",
-      "{{FEATURE_3}}",
-      "{{FEATURE_4}}",
+      "Real-time preview",
+      "Multi-layer shadow control",
+      "Color presets",
+      "One-click CSS copy",
     ],
   },
 
-  // Hero Section
   hero: {
-    badge: "{{HERO_BADGE_TEXT}}",
-    titleLine1: "{{HERO_TITLE_LINE_1}}",
-    titleGradient: "{{HERO_TITLE_GRADIENT_TEXT}}",
-    subtitle: "{{HERO_SUBTITLE}}",
+    badge: "Free CSS Design Tool",
+    titleLine1: "Create Stunning",
+    titleGradient: "Clay UI Effects",
+    subtitle:
+      "Generate soft, puffy claymorphism CSS with multi-layered shadows in seconds. Customize colors, border radius, and shadow depth — then copy the CSS.",
   },
 
-  // Feature Cards (shown on homepage)
   featureCards: [
     {
-      icon: "{{FEATURE_ICON_1}}",
-      title: "{{FEATURE_CARD_TITLE_1}}",
-      description: "{{FEATURE_CARD_DESC_1}}",
+      icon: "🎨",
+      title: "Live Preview",
+      description:
+        "See your claymorphism effect update in real-time as you adjust every parameter.",
     },
     {
-      icon: "{{FEATURE_ICON_2}}",
-      title: "{{FEATURE_CARD_TITLE_2}}",
-      description: "{{FEATURE_CARD_DESC_2}}",
+      icon: "🌈",
+      title: "Color Presets",
+      description:
+        "Start with beautiful preset palettes or pick your own custom colors instantly.",
     },
     {
-      icon: "{{FEATURE_ICON_3}}",
-      title: "{{FEATURE_CARD_TITLE_3}}",
-      description: "{{FEATURE_CARD_DESC_3}}",
+      icon: "📋",
+      title: "Copy CSS Instantly",
+      description:
+        "Get clean, production-ready CSS code you can paste directly into your project.",
     },
   ],
 
-  // Related Tools (cross-linking to sibling Jagodana tools for internal SEO)
   relatedTools: [
     {
-      name: "Favicon Generator",
-      url: "https://favicon-generator.jagodana.com",
-      icon: "🎨",
-      description: "Generate all favicon sizes + manifest from any image.",
+      name: "Box Shadow Generator",
+      url: "https://box-shadow-generator.tools.jagodana.com",
+      icon: "🌑",
+      description: "Build complex CSS box shadows with a visual editor.",
     },
     {
-      name: "Sitemap Checker",
-      url: "https://sitemap-checker.jagodana.com",
-      icon: "🔍",
-      description: "Discover and validate sitemaps on any website.",
+      name: "Glassmorphism Generator",
+      url: "https://glassmorphism-generator.tools.jagodana.com",
+      icon: "🪟",
+      description: "Generate frosted-glass CSS backdrop-filter effects.",
     },
     {
-      name: "Regex Playground",
-      url: "https://regex-playground.jagodana.com",
-      icon: "🧪",
-      description: "Build, test & debug regular expressions in real-time.",
+      name: "Neumorphism Generator",
+      url: "https://neumorphism-generator.tools.jagodana.com",
+      icon: "⬜",
+      description: "Create soft UI neumorphism effects with CSS shadows.",
     },
     {
-      name: "Screenshot Beautifier",
-      url: "https://screenshot-beautifier.jagodana.com",
-      icon: "📸",
-      description: "Transform screenshots into beautiful images.",
+      name: "CSS Gradient Generator",
+      url: "https://css-gradient-generator.tools.jagodana.com",
+      icon: "🎆",
+      description: "Generate beautiful CSS gradients for backgrounds.",
     },
     {
-      name: "Color Palette Explorer",
-      url: "https://color-palette-explorer.jagodana.com",
-      icon: "🎭",
-      description: "Extract color palettes from any image.",
+      name: "Border Radius Generator",
+      url: "https://border-radius-generator.tools.jagodana.com",
+      icon: "🔲",
+      description: "Craft custom border-radius CSS shapes visually.",
     },
     {
-      name: "Logo Maker",
-      url: "https://logo-maker.jagodana.com",
-      icon: "✏️",
-      description: "Create a professional logo in 60 seconds.",
+      name: "CSS Button Generator",
+      url: "https://css-button-generator.tools.jagodana.com",
+      icon: "🔘",
+      description: "Design and export custom CSS button styles.",
     },
   ],
 
-  // HowTo Steps (drives HowTo JSON-LD schema for rich results)
   howToSteps: [
-    { name: "{{STEP_1_NAME}}", text: "{{STEP_1_TEXT}}", url: "" },
-    { name: "{{STEP_2_NAME}}", text: "{{STEP_2_TEXT}}", url: "" },
-    { name: "{{STEP_3_NAME}}", text: "{{STEP_3_TEXT}}", url: "" },
+    {
+      name: "Pick a Preset or Color",
+      text: "Choose a built-in color preset or pick your own background color for the clay element.",
+      url: "",
+    },
+    {
+      name: "Adjust Shadow Settings",
+      text: "Tune the shadow blur, size, depth, and inner highlight to get the clay depth you want.",
+      url: "",
+    },
+    {
+      name: "Copy the CSS",
+      text: "Click 'Copy CSS' to copy the complete box-shadow and border-radius CSS to your clipboard.",
+      url: "",
+    },
   ],
-  howToTotalTime: "PT2M", // ISO 8601 duration (e.g., PT2M = 2 minutes)
+  howToTotalTime: "PT1M",
 
-  // FAQ (drives both the FAQ UI section and FAQPage JSON-LD schema)
   faq: [
     {
-      question: "{{FAQ_QUESTION_1}}",
-      answer: "{{FAQ_ANSWER_1}}",
+      question: "What is claymorphism in CSS?",
+      answer:
+        "Claymorphism is a UI design trend that makes interface elements look like soft, puffy 3D clay objects. It uses bright saturated colors, large border radii, and multi-layered box shadows — typically a dark drop shadow and a light inner highlight — to create the 3D clay illusion.",
     },
     {
-      question: "{{FAQ_QUESTION_2}}",
-      answer: "{{FAQ_ANSWER_2}}",
+      question: "How do I create a claymorphism effect in CSS?",
+      answer:
+        "A claymorphism effect uses the CSS box-shadow property with multiple layers: a bottom-right dark shadow, a top-left light shadow, and an inset inner glow. Combined with a large border-radius and a bright background color, this creates the characteristic soft clay look. This generator builds the CSS for you instantly.",
     },
     {
-      question: "{{FAQ_QUESTION_3}}",
-      answer: "{{FAQ_ANSWER_3}}",
+      question: "Is claymorphism different from neumorphism?",
+      answer:
+        "Yes. Neumorphism uses muted, near-background colors with subtle extruded shadows for a soft embossed look. Claymorphism uses bright, saturated colors with bolder multi-layered shadows to make elements appear like inflated 3D clay objects. Claymorphism is generally more colorful and visually pop.",
     },
     {
-      question: "{{FAQ_QUESTION_4}}",
-      answer: "{{FAQ_ANSWER_4}}",
+      question: "What CSS properties does claymorphism use?",
+      answer:
+        "Claymorphism relies on: background-color (bright, saturated), border-radius (large, e.g. 20–40px), and box-shadow (multiple layers — dark outer shadow + light outer highlight + optional inset highlight). No special CSS features are required, making it universally supported.",
+    },
+    {
+      question: "Is this claymorphism CSS generator free?",
+      answer:
+        "Yes, completely free. No login or account required. Adjust the controls, preview the effect, and copy the CSS directly into your project.",
     },
   ],
 
-  // ====== PAGES (for sitemap + per-page SEO) ======
-  // Add every route here. Sitemap and generatePageMetadata() read from this.
   pages: {
     "/": {
-      title: "{{TOOL_TITLE}}",
-      description: "{{TOOL_DESCRIPTION}}",
+      title: "Claymorphism Generator — Free CSS Clay Effect Tool",
+      description:
+        "Generate beautiful claymorphism CSS effects instantly. Customize colors, shadows, and border radius to create soft 3D clay-like UI elements.",
       changeFrequency: "weekly" as const,
       priority: 1,
     },
-    // Example page (DELETE when starting your tool, or customize)
-    "/about": {
-      title: "About - {{TOOL_NAME}}",
-      description: "Learn more about {{TOOL_NAME}} and how it works.",
-      changeFrequency: "monthly" as const,
-      priority: 0.7,
-    },
-    // "/blog": {
-    //   title: "Blog - {{TOOL_NAME}}",
-    //   description: "Tips, tutorials, and updates about {{TOOL_NAME}}.",
-    //   changeFrequency: "weekly" as const,
-    //   priority: 0.8,
-    // },
   },
 } as const;
 

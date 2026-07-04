@@ -1,7 +1,7 @@
 {
-  "name": "{{TOOL_NAME}}",
-  "short_name": "{{TOOL_SHORT_NAME}}",
-  "description": "{{TOOL_DESCRIPTION}}",
+  "name": "Claymorphism Generator",
+  "short_name": "Clay CSS",
+  "description": "Generate beautiful claymorphism CSS effects with multi-layered shadows. Free, instant, no login.",
   "icons": [
     {
       "src": "/favicon.svg",
@@ -22,7 +22,7 @@
       "purpose": "any maskable"
     }
   ],
-  "theme_color": "{{BRAND_COLOR}}",
+  "theme_color": "#a855f7",
   "background_color": "#ffffff",
   "display": "standalone",
   "orientation": "portrait-primary",
